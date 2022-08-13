@@ -1,5 +1,6 @@
 package tests;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
@@ -13,6 +14,7 @@ public class PracticeformTest extends TestsBase{
 
 
     @Test
+    @DisplayName("Проверка корректного заполнения формы")
     void homeTask3() {
         step("Открываем форму", () -> {
         open("/automation-practice-form");
